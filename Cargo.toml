@@ -4,3 +4,5 @@ version = "0.1.0-SNAPSHOT"
 authors = [ "Darrell Hamilton<darrell.noice@gmail.com>" ]
 
 [[bin]]
+name = "repl"
+path = "src/repl.rs"
