@@ -5,7 +5,7 @@ fn main() {
     println!("Press Ctrl-C to exit");
     let mut reader = io::stdin();
 
-    while true {
+    loop {
         print!("> ");
         let input = reader.read_line().ok().expect("Failed to read line");
         print!("{:s}", input);
