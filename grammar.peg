@@ -1,0 +1,12 @@
+#[export]
+symbol -> str
+  = ([a-zA-Z*_-][^ .]*)
+
+expression
+  = symbol
+
+list
+  = "(" (expression whitespace*)* ")"
+
+whitespace
+  = [ ,\t\n]
